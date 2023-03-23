@@ -15,7 +15,7 @@ export class CountdownComponent {
   step = "first";
 
   public dateNow = new Date();
-  public dDay = new Date('Mar 24 2023 01:30:00');
+  public dDay = new Date('Mar 26 2023 00:00:00');
 
   milliSecondsInASecond = 1000;
   hoursInADay = 24;
