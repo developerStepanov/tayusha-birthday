@@ -223,12 +223,12 @@
   z-index:0;
 }
 
-.easter-animation:active .egg-top, .easter-animation:hover .egg-top {
+.easter-animation:active .egg-top, .easter-animation:focus .egg-top {
   transform: translateY(-100px);
   transition-duration: 1s;
 }
 
-.easter-animation:active .chick, .easter-animation:hover .chick {
+.easter-animation:active .chick, .easter-animation:focus .chick {
   transform: translateY(-30px);
   transition-duration: .7s;
 }
