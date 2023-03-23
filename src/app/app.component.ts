@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'taya-birthday';
+
+  showEmittedValue(value: Date) {
+    console.log(value.getSeconds());
+  }
 }
