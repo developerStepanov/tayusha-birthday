@@ -1,5 +1,5 @@
 import {Component, EventEmitter, Output } from '@angular/core';
-import {Subscription, interval, Observable, takeUntil, takeWhile} from 'rxjs';
+import {Subscription, interval, takeWhile} from 'rxjs';
 
 @Component({
   selector: 'app-countdown',
